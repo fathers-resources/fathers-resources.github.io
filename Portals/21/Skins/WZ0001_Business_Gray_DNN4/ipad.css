@@ -1,0 +1,37 @@
+/* CSS Document */
+/* Ipad */
+@media handheld, only screen and (max-width:920px) {
+.apmenu li.selected a {
+    background: url("images/menuhover2.jpg") no-repeat scroll right top transparent;
+    padding: 0 5px;
+}
+
+.apmenu span {
+    cursor: pointer;
+    display: block;
+    line-height: 50px;
+    padding: 0 10px 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.apmenu a {
+    background: none repeat scroll 0 0 transparent;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 50px;
+    padding: 0 5px;
+}
+
+.apmenu span {
+    cursor: pointer;
+    display: block;
+    line-height: 50px;
+    padding: 0 10px 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+}
+ 
+ 

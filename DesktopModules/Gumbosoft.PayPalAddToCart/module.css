@@ -1,0 +1,21 @@
+﻿
+/**************************************************
+ *                                                *
+ * Default PayPal Shopping Cart                   *
+ *                                                *
+ **************************************************/
+
+.ErrorMessageLabel
+{
+    color: Red;
+    background-color:Transparent;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Hidden
+{
+	visibility:hidden;
+	display:none;
+}

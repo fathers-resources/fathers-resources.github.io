@@ -1,0 +1,287 @@
+/* ================================
+    CSS STYLES FOR Module Code5Systems FormMaster
+   ================================
+*/
+.runTimeTable {}
+
+.rfvSymbol
+{
+	display: none;
+}
+	
+.runTimeTable TD
+{
+	padding: 3px	
+}
+
+.designTimeTable
+{
+	border-right: #000000 1px dotted;
+	border-top: #000000 1px dotted;
+	border-left: #000000 1px dotted;
+	border-bottom: #000000 1px dotted;
+	border-collapse: collapse;
+}
+.designTimeTable TD
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-right: #000000 1px dotted;
+	border-top: #000000 1px dotted;
+	border-left: #000000 1px dotted;
+	border-bottom: #000000 1px dotted;
+}
+
+.listTableLayout TD
+{
+	border: none;
+}
+
+.gridForm
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+	border-collapse: collapse;
+	background-color: transparent;
+}
+
+.gridControlCell TD
+{
+	border-right: buttonface thick outset;
+	border-top: buttonface thick outset;
+	border-left: buttonface thick outset;
+	border-bottom: buttonface thick outset;
+	background-color: buttonface;
+}
+
+.reportForm
+{
+	border: black 1px solid;
+	border-collapse: collapse;
+	background-color: transparent;
+	width:550px;
+}
+.reportForm TD
+{
+	border: black 1px solid;
+	background-color: transparent;
+	padding:5px;
+}
+.valDetails
+{
+	border-right: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	border-left: #cccccc 1px solid;
+	width: 100%;
+	border-bottom: #cccccc 1px solid;
+	border-collapse: collapse;
+}
+.valDetails TD
+{
+	border-right: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	border-left: #cccccc 1px solid;
+	border-bottom: #cccccc 1px solid;
+	padding: 3px;
+}
+
+.rptHeader TH
+{
+ background-color:Navy;
+ font-weight:bold;
+ color:#FFFFFF;
+ text-align:center;
+}
+.rptHeader TD, .rptHeader A:link, .rptHeader A:hover
+{
+ background-color:Navy;
+ font-weight:bold;
+ color:#FFFFFF;
+ text-align:center;
+}
+.rptItem TD
+{
+	color:Black;
+	background-color:White;	
+}
+.rptAltItem TD
+{
+	color:Black;
+	background:#EEEEEE;	
+}
+.rptFooter TD
+{
+ background-color:Navy;
+ color:White;
+}
+.rptPager TD
+{
+	border:none;	
+}
+
+
+/* Edit Menu */
+
+.C5SLLC_MenuContainer{
+	background:transparent;
+}
+
+.C5SLLC_MenuItem
+{
+	color:#000;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px 5px 5px 5px;
+	border:1px #EEE solid;
+	border-width:1px 0px;
+	font-family:Arial;
+}
+.C5SLLC_RootMenuItem TD
+{
+	color:#000; 
+	font-size:11px; 
+	background:transparent;
+	padding:5px 5px 5px 5px;
+	font-family:Arial;
+}
+.C5SLLC_RootMenuItemsSel TD
+{
+	color:#000;
+	font-size:11px; 
+	font-weight:bold;
+	background:#EEE;
+	padding:5px 5px 5px 5px;
+	cursor:pointer;
+	font-family:Arial;
+}
+.C5SLLC_SubMenu 
+{
+	z-index:95000
+}
+.C5SLLC_SubMenu TABLE
+{
+	border:1px #000 solid; 
+	font-weight:normal;
+	background-color:#EEE;
+}
+
+.C5SLLC_SubMenu TD
+{
+	font-weight:normal;
+	font-size:11px;
+	padding-left:10px;
+	padding-right:10px;
+	font-family:Arial;
+}
+
+.C5SLLC_SubMenuItemSel
+{
+	color:#000;
+	font-size:11px;
+	font-weight:normal;	
+	font-family:Arial;
+	background:#FFF;
+	cursor:pointer;
+	padding:5px 5px 5px 5px;
+}
+
+.C5SLLC_RootMenuArrow{
+	display:none;
+}
+
+.C5SLLC_MenuBreak{
+	display:none;
+}
+
+.C5SLLC_MenuArrow
+{
+	display: none;
+}
+.C5SLLC_MenuBar  {}
+
+.C5SLLC_MenuIcon{
+	display:none;
+}
+
+.tinyDropdown
+{
+	font-size: 6.5pt;
+}
+.divSpan
+{
+	padding-top:3px;
+	font-size:6.5pt;
+}
+
+.tdTokens
+{
+	border:solid black 1px;
+}
+#tblThankYou {}
+#tblDispatcher {}
+#tblHeading {}
+#tblAutoResponder {}
+#tblDesignTable {}
+#tblControlForm {}
+#tblFormQuery {}
+#tblOptions {}
+#headerFormReport {}
+#tblReportEditForm {}
+#tblThankYouEdit {}
+#tblCustomTemplate {}
+.pnlDesign { }
+
+.gridSpace TH, .gridSpace TD
+{
+	padding:3px;
+}
+#tblFormOptions
+{
+	margin:0px auto;
+}
+#tblFormOptions TD 
+{
+	padding:3px;
+}
+
+#tblFormOptionsMain
+{
+	width:600px;
+}
+#tblFormOptionsMain TD
+{
+	padding:3px;
+}
+#tblWsHeading {}
+#tblWsHeading TD
+{
+	padding:3px;
+}
+#tblUserManager
+{
+	margin:0px auto;
+}
+#tblUserManager TD
+{
+	padding:3px;
+}
+#tblFilesOuter 
+{
+	width:450px;
+	margin:0px auto;	
+}
+#tblFilesOuter TD
+{
+	padding:3px;
+}
+#tblFilesInner TD
+{
+	padding:3px;
+}
+#tblReport 
+{
+}

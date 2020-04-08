@@ -1,0 +1,325 @@
+/* CSS Document */
+@import url(layout.css);
+@import url(ipad.css);
+@import url(mobile.css);
+ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0; padding:0; margin:0;}
+
+article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}
+a img{border:0}
+figure{position:relative}
+figure img{width:100%}
+img, object, embed{ max-width: 100%;}
+img { height: auto;}
+
+
+#Body{
+	color:#333333; padding:0; margin:0;background:#2F2F2F;}
+html,body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0px; 
+	padding:0px;
+	font-size:15px; 
+	color:#000;
+	line-height:1.4;
+	}
+
+TH,TD,DIV{
+	}
+A,A:link,A:visited,A:active{
+	text-decoration: none; color:#0FAFCF;}
+A:hover{
+	text-decoration: underline;}
+.apmenu a { color:#ffffff; text-decoration:none;}
+h1{
+	font-size:24px;}
+h1,h3,h5{
+	color:#4a4949; font-weight:bold; line-height:1.2;}
+h2,h4,h6{
+	color:#333333; font-weight:bold; line-height:1.2;}
+form#Form{
+	height:100%;}
+.ModuleTitle_SubMenu{
+	z-index:9999!important;}	
+.clearafter:after{
+	clear:both;
+	content:".";
+	height:0px;
+	font-size:0px;
+	visibility:hidden;
+	display:block;
+	}
+.clearafter{
+	display:inline-block;}
+.clearafter{
+	display:block;}
+.ControlPanel .CommandButton,
+.ControlPanel A.CommandButton:link,
+.ControlPanel A.CommandButton:visited,
+.ControlPanel A.CommandButton:active{
+	font-size:100%;color:#000;text-decoration:none;font-weight:normal;}
+.ControlPanel A.CommandButton:hover{
+	color:#000; text-decoration: underline; font-weight:normal; }
+/* ********** Control Panel Style ************** */
+.CommandButton,
+A.CommandButton:link,
+A.CommandButton:visited,
+A.CommandButton:active{
+	font-size:100%;color:#10AED1;text-decoration:none;font-weight:normal;}
+A.CommandButton:hover{
+	color:#10AED1; text-decoration: underline; font-weight:normal; }
+	
+.FileManager A,
+.FileManager A:link,
+.FileManager A:visited,
+.FileManager A:active{
+	color:#000;text-decoration: underline;}
+.FileManager A:hover{
+	color:#000;text-decoration:none;}
+
+
+/* ********** Buttons Style ************** */
+/* ********** Container Style ************** */
+.Head									{ font-size:15px;font-weight:bold;color:#4a4949;}
+.SubHead								{ font-size:15px;color:#4a4949;}
+.SubSubHead								{ font-size:15px; color:#4a4949; }
+.Normal									{ font-size:14px; line-height:1.4;}
+
+/* ********** Date Style ************** */
+.date,
+a.date:link,
+a.date:active,
+a.date:visited{
+	color:#E5810C;	text-decoration:none;	font-weight:normal;	font-size:100%; background:url(http://fathers-resources.com/Portals/21/Skins/WZ0001_Business_Gray_DNN4/images/date_icon.jpg) 0px 0px no-repeat; padding:3px 0px 3px 25px;} 
+a.date:hover{
+	color:#E165DD;}
+
+/* ********** Footer Style ************** */
+.footer,
+a.footer:link,
+a.footer:active,
+a.footer:visited{
+	font-size:15px;color:#5e5e5e;text-decoration:none;border-bottom:0px dotted;font-weight:Normal;}
+a.footer:hover{
+	color:#fff; text-decoration:none; font-weight:Normal; text-decoration:underline; }
+
+/* ********** Privacy/Terms Style ************** */
+.terms,
+a.terms:link,
+a.terms:active,
+a.terms:visited{
+	font-size:15px;	color:#5e5e5e;	text-decoration:none;	font-weight: normal;	border-bottom:0px dotted;}
+a.terms:hover{
+	color:#fff;text-decoration:none;font-weight:Normal; text-decoration:underline;}
+
+/* ********** Links Style ************** */
+.links,
+a.links:link,
+a.links:active,
+a.links:visited{
+	font-size:15px; color:#7CBBFF; text-decoration:none; font-weight:normal;padding:0 0px;}	
+a.links:hover{
+	color:#fff;text-decoration:underline;font-weight:normal;}
+
+/* ********** Breadcrumb Style ************** */
+.breadcrumb,
+a.breadcrumb:link,
+a.breadcrumb:active,
+a.breadcrumb:visited{
+	font-size:100%;color:#3193AE;text-decoration:none; font-weight:normal;  border-bottom:0px dotted}
+a.breadcrumb:hover{
+	color:#3193AE;text-decoration:none; font-weight:normal;  text-decoration:underline;}
+
+
+
+/* ********** Other Style ************** */	
+#dnn_wrapper{
+	min-height:100%;
+	background:url(http://fathers-resources.com/Portals/21/Skins/WZ0001_Business_Gray_DNN4/images/body_bg.jpg) 50% 0px no-repeat #000000;
+	position:relative;
+	overflow:hidden;
+	}
+* html #dnn_wrapper{
+	height:100%;}
+	
+/* ******some color style for black background ******** */
+.dnnForm h2.dnnFormSectionHead a, .dnnForm h2.dnnFormSectionHead a:visited{
+	color:#ccc;
+}
+#dnn_ctr412_dnn_ctr412_Tabs_UPPanel span.rtIn{
+	color:#ccc;
+}
+.dnnTreeLegend h3{
+	color:#353535;
+}
+.dnnFormItem input[type="checkbox"], .dnnFormItem input[type="radio"], .dnnFormItem input[type="file"], .dnnFormItem input[type="button"], .dnnFormItem input.rcbInput{
+	color:#ccc;
+}
+
+
+/* SIDE NAV */
+
+.DataGrid_Item{
+	font-size:13px;}
+.DataGrid_AlternatingItem{
+	font-size:13px;}
+
+.DNNEmptyPane{
+	display:none;}
+
+
+.dnn_space{
+	height:8px;
+	font-size:0px;}
+
+
+
+/* 20121114 tophead */
+.wrapper { background:#f5f5f5; width:100%; position:relative;}
+.myhead{ background:#f5f5f5;  /*url(images/top_head.jpg) repeat-x left bottom #ffffff;*/ padding: 0px 0px 0px -20px 0px;}
+.clearafter { display:block;}
+.nav { max-width:1000px; margin:0 auto;}
+
+.linksbg {background:url(images/linksbg.jpg) repeat-x left top #1a1a1a; margin:20px 0 0;}
+.topfooter {background:#272727; border-top:1px solid #353535;}
+.copyrightbg { background:url(images/copyrightbg.jpg) repeat-x left top #2f2f2f; padding:25px 0;}
+
+.pad1{ padding: 0px 0 10px 0;	}
+
+/* ********** Footerlinks ************** */
+.footerlinks { color:#3f3f3f; }
+A.footerlinks,
+A.footerlinks:link,
+A.footerlinks:visited,
+A.footerlinks:active{
+	color:#fff;text-decoration: none; font-size:14px;}
+A.footerlinks:hover{
+	color:#3CBEDE; }
+
+/* ********** Login Style ************** */
+.login,
+a.login:link,
+a.login:active,
+a.login:visited{
+	color:#0FAFCF; text-decoration:none; font-weight:normal; background:url(images/user_icon1.png) no-repeat left center; padding:0 0 0 15px}
+a.login:hover{
+	color:#0FAFCF; text-decoration: underline; font-weight:normal; }
+	
+
+.login_style{
+	padding:8px 5px 8px 0px;
+	color:#606060;}
+
+/* ********** User Style ************** */
+.user,
+a.user:link,
+a.user:active,
+a.user:visited{
+	color:#0FAFCF; text-decoration:none; font-weight:normal;  background:url(images/user_icon2.png) no-repeat left center;padding:0 0 0 15px}
+a.user:hover{
+	color:#0FAFCF; text-decoration:underline; font-weight:normal; }
+	
+	
+/* ********** Language Style ************** */
+.language-object .Language {
+    display: inline;
+    margin: 0 2px;
+    text-align: center;
+    vertical-align: middle;
+	float:none;
+}
+.language-object .Language img {
+    padding:3px 2px;
+    max-width: 16px;
+	vertical-align:-2px!important;
+	border:none;
+}
+.language-object .Language.selected img { background:url(images/language_bg.png) no-repeat 0 0;}
+
+.language-object {
+    display: inline;
+    line-height: 0.5;
+    margin: 0;
+    overflow: visible;
+    vertical-align: middle;
+	text-align:left;
+}
+/* ********** Search Style ************** */
+
+.search, a.search:link, a.search:active, a.search:visited {
+    color: #494949;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    height: 32px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    text-indent: 99999px;
+    top: 0;
+    width: 45px;
+}
+
+a.search:hover{
+	color:#fff; text-decoration:none; font-weight:normal; font-size:14px; }
+#dnn_dnnSEARCH_txtSearch {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #555555;
+    display: block;
+    font-size: 15px;
+    height:30px;
+	line-height:30px;
+    left:0; 
+    padding:0 0 0 8px;
+    position: absolute;
+    text-align: left;
+    width: 195px;
+}
+
+
+.bannerp{
+	background: url(images/banner_bg.jpg) repeat;}
+.bannerbot {background: url(images/bannerbotbg.jpg) repeat-x; min-height:34px;}
+/* ********** Main ************** */
+.mainbg {background: url(images/mainbg.jpg) repeat-x left top #f5f5f5;}	
+
+.headp{
+	float:left;
+	padding:5px;}
+.dnn_menu{
+	clear:both;
+	position:relative;
+	z-index:999;}
+.bread_style {
+    background: url("images/bread_icon.png") no-repeat scroll 8px 15px transparent;
+    color: #3D3D3D;
+    padding: 12px 5px 12px 25px;
+}
+.clear{
+	clear:both; line-height:0; font-size:0; height:0;}
+.dnnpanes { clear:both;}
+
+
+/* back up*/
+#top-link {
+    background: url("images/up.png") no-repeat scroll 0 0 transparent;
+    bottom: 28px;
+    display: none;
+    padding: 30px 20px;
+    position: fixed;
+    right: 15px;
+    text-decoration: none;
+    z-index: 903;
+	cursor: pointer;
+}
+
+
+*/.callus
+a.callus:link,
+a.callus:active,
+a.callus:visited {display:none;}*/
+
+
+
+

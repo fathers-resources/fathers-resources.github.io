@@ -1,0 +1,193 @@
+/* 
+================================
+ Container Styles for DotNetNuke
+================================
+.
+
+
+/*-------------------------------------------------------------------------------*/
+.Normal { color:#333333;}
+.actions{ width:10px;}
+.clear									 { clear:both; line-height:0; font-size:0; height:0;}
+.left 									 { float:left;}
+.right 									 { float:right;}
+.c_footer_1								 { padding-right:10px; text-align:right;}
+.dnntitle 								 { }
+.c_contentpane 							 { text-align:left; padding:2px 5px 0px 5px;}
+.ContainerGray-1 							 { margin-bottom:5px;}
+.ContainerGray-1 .c_top						 { background:url(images/c1_top1.png) 0px 0px no-repeat;}
+.ContainerGray-1 .c_top .cright					 { background:url(images/c1_top3.png) 100% 0px no-repeat;}
+.ContainerGray-1 .c_top .cmid				 { background:url(images/c1_top2.png) 0px 0px repeat-x #f5f5f5; height:10px; margin:0px 8px; font-size:0px;}
+.ContainerGray-1 .dnntitle					 { padding:0px 8px 1px 8px; white-space:nowrap;}
+.ContainerGray-1 .contentmain1				 { background:url(images/c1_mid1.png) 0px 0px repeat-y;}
+.ContainerGray-1 .contentmain2				 { background:url(images/c1_mid2.png) 100% 0px repeat-y;}
+.ContainerGray-1 .contentmain3				 { background:#f5f5f5; margin:0px 4px;}
+.ContainerGray-1 .contentpane				 { padding:25px 40px; text-align:left; vertical-align:top; clear:both; }
+.ContainerGray-1 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+.ContainerGray-1 .c_bot						 { background:url(images/c1_bot1.png) 0px 0px no-repeat;}
+.ContainerGray-1 .c_bot div					 { background:url(images/c1_bot3.png) 100% 0px no-repeat;}
+.ContainerGray-1 .c_bot div div				 { background:url(images/c1_bot2.png) 0px 0px repeat-x; height:10px; margin:0px 8px; font-size:0px;}
+
+.ContainerGray-2 							 { margin-bottom:5px;}
+.ContainerGray-2 .c_top						 { background:url(images/c2_top1.png) 0px 0px no-repeat;}
+.ContainerGray-2 .c_top .cright					 { background:url(images/c2_top3.png) 100% 0px no-repeat;}
+.ContainerGray-2 .c_top .cmid				 { background:url(images/c2_top2.png) 0px 0px repeat-x; height:17px; margin:0px 9px; font-size:0px;}
+.ContainerGray-2 .dnntitle					 { white-space:nowrap;}
+.ContainerGray-2 .contentmain1				 { background:url(images/c2_mid1.png) 0px 0px repeat-y;}
+.ContainerGray-2 .contentmain2				 { background:url(images/c2_mid3.png) 100% 0px repeat-y;}
+.ContainerGray-2 .contentmain3				 { background:url(images/c2_mid2.png) 0px 0px repeat-x #e3e3e3; margin:0px 4px;min-height: 180px;}
+.ContainerGray-2 .contentpane				 { padding:12px 28px; text-align:left; vertical-align:top; clear:both; color:#333333;}
+.ContainerGray-2 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+.ContainerGray-2 .c_bot						 { background:url(images/c2_bot1.png) 0px 0px no-repeat;}
+.ContainerGray-2 .c_bot div					 { background:url(images/c2_bot3.png) 100% 0px no-repeat;}
+.ContainerGray-2 .c_bot div div				 { background:url(images/c2_bot2.png) 0px 0px repeat-x; height:21px; margin:0px 10px; font-size:0px;}
+
+.ContainerGray-3 							 { margin-bottom:5px;}
+.ContainerGray-3 .c_top						 { background:url(images/c3_top1.png) 0px 0px no-repeat;}
+.ContainerGray-3 .c_top .cright					 { background:url(images/c3_top3.png) 100% 0px no-repeat;}
+.ContainerGray-3 .c_top .cmid				 { background:url(images/c3_top2.png) 0px 0px repeat-x; height:17px; margin:0px 9px; font-size:0px;}
+.ContainerGray-3 .dnntitle					 { white-space:nowrap;}
+.ContainerGray-3 .contentmain1				 { background:url(images/c3_mid1.png) 0px 0px repeat-y;}
+.ContainerGray-3 .contentmain2				 { background:url(images/c3_mid3.png) 100% 0px repeat-y;}
+.ContainerGray-3 .contentmain3				 { background:url(images/c3_mid2.png) 0px 0px repeat-x #cacaca; margin:0px 4px;min-height: 180px;}
+.ContainerGray-3 .contentpane				 { padding:12px 28px; text-align:left; vertical-align:top; clear:both;color:#333333; }
+.ContainerGray-3 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+.ContainerGray-3 .c_bot						 { background:url(images/c3_bot1.png) 0px 0px no-repeat;}
+.ContainerGray-3 .c_bot div					 { background:url(images/c3_bot3.png) 100% 0px no-repeat;}
+.ContainerGray-3 .c_bot div div				 { background:url(images/c3_bot2.png) 0px 0px repeat-x; height:21px; margin:0px 10px; font-size:0px;}
+
+.ContainerGray-4 							 { margin-bottom:5px;}
+.ContainerGray-4 .c_top						 { background:url(images/c4_top1.png) 0px 0px no-repeat;}
+.ContainerGray-4 .c_top .cright					 { background:url(images/c4_top3.png) 100% 0px no-repeat;}
+.ContainerGray-4 .c_top .cmid				 { background:url(images/c4_top2.png) 0px 0px repeat-x; height:17px; margin:0px 9px; font-size:0px;}
+.ContainerGray-4 .dnntitle					 { white-space:nowrap; }
+.ContainerGray-4 .contentmain1				 { /*background:url(images/c4_mid1.png) 0px 0px no-repeat;*/}
+.ContainerGray-4 .c4leftbg                   { background:url(images/c4_mid1bg.png) 0px 0px repeat-y;}
+.ContainerGray-4 .c4rightbg                  { background:url(images/c4_mid3bg.png) 100% 0px repeat-y;}
+.ContainerGray-4 .contentmain2				 { /*background:url(images/c4_mid3.png) 100% 0px no-repeat;*/}
+.ContainerGray-4 .contentmain3				 { background:url(images/c4_mid2.png) 0px 0px repeat-x #a8a8a8; margin:0px 4px;min-height: 180px;}
+.ContainerGray-4 .contentpane				 { padding:12px 28px; text-align:left; vertical-align:top; clear:both; color:#333333;}
+.ContainerGray-4 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+.ContainerGray-4 .c_bot						 { background:url(images/c4_bot1.png) 0px 0px no-repeat;}
+.ContainerGray-4 .c_bot div					 { background:url(images/c4_bot3.png) 100% 0px no-repeat;}
+.ContainerGray-4 .c_bot div div				 { background:url(images/c4_bot2.png) 0px 0px repeat-x; height:21px; margin:0px 10px; font-size:0px;}
+
+.ContainerGray-5 							 { margin-bottom:5px;}
+.ContainerGray-5 .dnntitle					 { white-space:nowrap;padding: 0 0 0 10px; }
+.ContainerGray-5 .contentpane				 { padding:15px 10px; text-align:left; vertical-align:top; clear:both; color:#000000;}
+.ContainerGray-5 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+
+.ContainerGray-6 							 { margin-bottom:5px;}
+.ContainerGray-6 .dnntitle					 { white-space:nowrap; color:#3D3E40;padding: 0 0 0 10px;}
+.ContainerGray-6 .contentpane				 { padding:15px 10px; text-align:left; vertical-align:top; clear:both; color:#000000;}
+.ContainerGray-6 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+
+.ContainerGray-7 							 { margin-bottom:5px;}
+.ContainerGray-7 .dnntitle					 { white-space:nowrap;border-bottom: 1px solid #A0A0A0;    margin: 0 0 0 10px;    padding: 0;}
+.ContainerGray-7 .contentpane				 { padding:15px 10px; text-align:left; vertical-align:top; clear:both; color:#000000;}
+.ContainerGray-7 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+
+.ContainerGray-8 							 { margin-bottom:5px;}
+.ContainerGray-8 .dnntitle					 { white-space:nowrap;border-bottom: 1px solid #A0A0A0; margin: 0 0 0 10px; padding: 0; color:#3E3F41;}
+.ContainerGray-8 .contentpane				 { padding:15px 10px; text-align:left; vertical-align:top; clear:both; color:#000000;}
+.ContainerGray-8 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+
+.ContainerGray-9 							 { margin-bottom:5px;}
+.ContainerGray-9 .c_top						 { background:url(images/c9_top1.png) 0px 0px no-repeat;}
+.ContainerGray-9 .c_top .cright					 { background:url(images/c9_top3.png) 100% 0px no-repeat;}
+.ContainerGray-9 .c_top .cmid				 { background:url(images/c9_top2.png) 0px 0px repeat-x; height:38px; margin:0px 18px; font-size:0px;}
+.ContainerGray-9 .dnntitle					 { white-space:nowrap; }
+.ContainerGray-9 .contentpane				 { padding:10px 18px; text-align:left; vertical-align:top; clear:both; color:#000000;}
+.ContainerGray-9 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+
+.ContainerGray-10 							 { margin-bottom:5px;}
+.ContainerGray-10 .c_top					 { background:url(images/c10_top1.png) 0px 0px no-repeat;}
+.ContainerGray-10 .c_top .cright				 { background:url(images/c10_top3.png) 100% 0px no-repeat;}
+.ContainerGray-10 .c_top .cmid			 { background:url(images/c10_top2.png) 0px 0px repeat-x; height:38px; margin:0px 18px; font-size:0px;}
+.ContainerGray-10 .dnntitle					 { white-space:nowrap;color: #363636; }
+.ContainerGray-10 .contentpane				 { padding:10px 18px; text-align:left; vertical-align:top; clear:both; color:#000000;}
+.ContainerGray-10 p 						 { padding:0px; margin:0px 0px 8px 0px;}
+
+.ContainerGray-11 							 { margin-bottom:5px;}
+.ContainerGray-11 .c_top					 { background:url(images/c11_top1.png) 0px 0px no-repeat;}
+.ContainerGray-11 .c_top .cright				 { background:url(images/c11_top3.png) 100% 0px no-repeat;}
+.ContainerGray-11 .c_top .cmid			 { background:url(images/c11_top2.png) 0px 0px repeat-x; height:34px; margin:0px 18px; font-size:0px;}
+.ContainerGray-11 .dnntitle					 { white-space:nowrap;color: #8b8b8b; }
+.ContainerGray-11 .contentmain1	             { border:1px solid #dadada; border-top:none;background:#F5F5F5;}
+.ContainerGray-11 .contentpane				 { padding:10px 18px; text-align:left; vertical-align:top; clear:both; color:#000000;}
+.ContainerGray-11 p 						 { padding:0px; margin:0px 0px 8px 0px;}
+
+.ContainerGray-12 							 { margin-bottom:5px;}
+.ContainerGray-12 .c_top					 { background:url(images/c12_top1.png) 0px 0px no-repeat;}
+.ContainerGray-12 .c_top .cright				 { background:url(images/c12_top3.png) 100% 0px no-repeat;}
+.ContainerGray-12 .c_top .cmid			 { background:url(images/c12_top2.png) 0px 0px repeat-x; height:34px; margin:0px 18px; font-size:0px;}
+.ContainerGray-12 .dnntitle					 { white-space:nowrap;color:#363636; }
+.ContainerGray-12 .contentmain1	             { border:1px solid #dadada; border-top:none;background:#F5F5F5;}
+.ContainerGray-12 .contentpane				 { padding:10px 18px; text-align:left; vertical-align:top; clear:both; color:#000000; }
+.ContainerGray-12 p 						 { padding:0px; margin:0px 0px 8px 0px;}
+
+
+.ContainerBlue-1 							 { margin-bottom:5px;}
+.ContainerBlue-1 .dnntitle					 { white-space:nowrap; color:#20A9CD;padding: 0 10px;}
+.ContainerBlue-1 .contentpane				 { padding:15px 10px; text-align:left; vertical-align:top; clear:both; color:#000000;}
+.ContainerBlue-1 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+
+.ContainerBlue-2 							 { margin-bottom:5px;}
+.ContainerBlue-2 .dnntitle					 { white-space:nowrap;border-bottom: 1px solid #A0A0A0; margin: 0 0 0 10px; padding: 0; color:#23A8CE;}
+.ContainerBlue-2 .contentpane				 { padding:15px 10px; text-align:left; vertical-align:top; clear:both; color:#000000;}
+.ContainerBlue-2 p 							 { padding:0px; margin:0px 0px 8px 0px;}
+
+.ContainerBlue-3 							 { margin-bottom:5px;}
+.ContainerBlue-3 .c_top					 { background:url(images/bluec3_top1.png) 0px 0px no-repeat;}
+.ContainerBlue-3 .c_top .cright				 { background:url(images/bluec3_top3.png) 100% 0px no-repeat;}
+.ContainerBlue-3 .c_top .cmid		 { background:url(images/bluec3_top2.png) 0px 0px repeat-x; height:38px; margin:0px 18px; font-size:0px;}
+.ContainerBlue-3 .dnntitle					 { white-space:nowrap;color: #ffffff; }
+.ContainerBlue-3 .contentpane				 { padding:10px 18px; text-align:left; vertical-align:top; clear:both; color:#000000;}
+.ContainerBlue-3 p 						 { padding:0px; margin:0px 0px 8px 0px;}
+
+.ContainerBlue-4 							 { margin-bottom:5px;}
+.ContainerBlue-4 .c_top					 { background:url(images/bluec3_top1.png) 0px 0px no-repeat;}
+.ContainerBlue-4 .c_top .cright				 { background:url(images/bluec3_top3.png) 100% 0px no-repeat;}
+.ContainerBlue-4 .c_top .cmid		 { background:url(images/bluec3_top2.png) 0px 0px repeat-x; height:34px; margin:0px 18px; font-size:0px;}
+.ContainerBlue-4 .dnntitle					 { white-space:nowrap;color:#ffffff; }
+.ContainerBlue-4 .contentmain1	             { border:1px solid #29A4CD; border-top:none; background:#F5F5F5;}
+.ContainerBlue-4 .contentpane				 { padding:10px 18px; text-align:left; vertical-align:top; clear:both; color:#000000; }
+.ContainerBlue-4 p 						 { padding:0px; margin:0px 0px 8px 0px;}
+
+
+.NoTitle {}
+.NoTitle .contentpane 					 { text-align:left; padding:0px;}
+.NoTitle .cbot							 { float:right;}
+
+
+
+.title1{font-weight:bold;color: #000000; line-height:1.3;padding: 0 28px;font-family: "Times New Roman", Times, serif; font-size:26px;}
+
+.title2{font-weight:bold;color: #a7a7a7; line-height:1.3;font-family: "Times New Roman", Times, serif; font-size:26px;}
+
+.title3{font-weight:bold; line-height:1.3;font-family: "Times New Roman", Times, serif; font-size:26px;}
+
+.title4{font-weight:bold; line-height:1.3;font-family: "Times New Roman", Times, serif; font-size:26px;}
+
+.title5{font-weight:bold; line-height:34px;font-family: "Times New Roman", Times, serif; font-size:26px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

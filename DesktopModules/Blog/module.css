@@ -1,0 +1,24 @@
+/* ================================
+    CSS STYLES FOR Module Blog
+   ================================
+*/
+.BlogInfo 
+{
+
+}
+
+.SearchOptions LABEL 
+{
+	font-family: Tahoma, Arial, Helvetica, Serif;
+	font-size:x-small;
+	
+} 
+
+
+.CreateFrom
+{
+
+	font-size: 10px;
+	color: #003366;
+	font-family: Tahoma, Arial, Helvetica, Serif;
+}

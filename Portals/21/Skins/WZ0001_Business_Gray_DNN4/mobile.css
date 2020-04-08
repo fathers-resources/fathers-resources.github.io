@@ -1,0 +1,515 @@
+/* CSS Document */
+/* Mobile */
+@media handheld, only screen and (max-width:767px) {
+
+Body {-webkit-text-size-adjust:none;}
+#Body{
+	color:#333333;}
+html,body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0px; 
+	height: 100%;
+	padding:0px;
+	font-size:13px; 
+	color:#000;
+	line-height:1.4;
+}
+.skinwidth, body {
+    min-width: 0;
+    width: 100%;
+	padding:0;
+	margin:0;
+}
+
+TH,TD,DIV{
+	}
+h1{
+	font-size:24px;}
+h1,h3,h5{
+	color:#4a4949; font-weight:bold; line-height:1.2;}
+h2,h4,h6{
+	color:#d600fe; font-weight:bold; line-height:1.2;}
+form#Form{
+	height:100%;}
+.ModuleTitle_SubMenu{
+	z-index:9999!important;}	
+.clearafter:after{
+	clear:both;
+	content:".";
+	height:0px;
+	font-size:0px;
+	visibility:hidden;
+	display:block;
+	}
+.clearafter{
+	display:inline-block;}
+.clearafter{
+	display:block;}
+.ControlPanel .CommandButton,
+.ControlPanel A.CommandButton:link,
+.ControlPanel A.CommandButton:visited,
+.ControlPanel A.CommandButton:active{
+	font-size:100%;color:#000;text-decoration:none;font-weight:normal;}
+.ControlPanel A.CommandButton:hover{
+	color:#000; text-decoration: underline; font-weight:normal; }
+	.navbg { background:none; }
+.apmenu {
+    margin: 0 auto;
+	min-width:0;
+	width:100%;
+}
+.logoright { width:auto;}
+.dnn_lan { width: auto; display:inline;}
+.toprighthead { width:auto; text-align:center; vertical-align:middle;}
+.toprighthead img { vertical-align:middle;}
+.search_bg {
+    background: url("images/search_bg.png") no-repeat scroll 0 0 transparent;
+    height: 33px;
+    position: relative;
+    width: 248px;
+	margin:7px auto 0 auto;
+}
+
+
+.dnn_main{
+		margin:0px auto; min-width:0; width:100%;  }
+/* ********** Pane Style ************** */
+.HeadBannerPane                         { padding:5px 0; width:auto;margin: 0 1%; text-align: left; max-width:none; }
+.BannerPane								{ padding:0; width:auto; min-width:0;}
+.TopPane								{ padding:5px 0; width:auto; margin:0 1%; }
+.TopLeftPane							{ padding:5px 0; width:auto;margin: 0 1%;}
+.TopRightPane							{ padding:5px 0;width:auto;margin: 0 1%;}
+.MidLeftPane							{ padding:5px 0; width:auto;margin: 0 1%;}
+.MiddlePane								{ padding:5px 0; width:auto; margin: 0 1%;}
+.MidRightPane							{ padding:5px 0; width:auto;margin: 0 1%;}
+.ContentPane							{ padding:5px 0; text-align:left; vertical-align:top;margin: 0 1%;}
+.LeftPane								{ padding:5px 0; text-align:left; vertical-align:top;margin: 0 1%; width:auto;}
+.RightPane							    { padding:5px 0;text-align:left; vertical-align:top;margin: 0 1%; width:auto;}
+.LeftPane2								{ padding:5px 0; text-align:left; vertical-align:top;margin: 0 1%; width:auto;}
+.RightPane2							    { padding:5px 0;text-align:left; vertical-align:top;margin: 0 1%; width:auto;}
+.BoxaPane								{ padding:5px 0; width:auto; margin:0 1%;}
+.BoxbPane								{ padding:5px 0; width:auto; margin:0 1%;}
+.BoxcPane								{ padding:5px 0; width:auto; margin:0 1%;}
+.BoxdPane								{ padding:5px 0; width:auto; margin:0 1%;}
+.BottomPane								{ padding:5px 0; clear:both;margin: 0 1%;}
+.LinksRightPane                         { padding:0; width:auto; text-align:right;margin: 0 1%;}
+.BotLeftPane							{ padding:5px 0; width:auto; margin: 0 1%;}
+.BotMidPane					    		{ padding:5px 0;width:auto;margin: 0 1%;}
+.BotRightPane					    	{ padding:5px 0;width:auto;margin: 0 1%;}
+.FootRightPane						    { padding:5px 0; margin: 0 1%;}
+
+.DNNEmptyPane							{ display:none;}
+.dnn_content{ padding:25px 0 10px}
+
+.fl, .fr{ float:none;}
+
+/* ********** Control Panel Style ************** */
+.CommandButton,
+A.CommandButton:link,
+A.CommandButton:visited,
+A.CommandButton:active{
+	font-size:100%;color:#d600fe;text-decoration:none;font-weight:normal;}
+A.CommandButton:hover{
+	color:#d600fe; text-decoration: underline; font-weight:normal; }
+	
+.FileManager A,
+.FileManager A:link,
+.FileManager A:visited,
+.FileManager A:active{
+	color:#000;text-decoration: underline;}
+.FileManager A:hover{
+	color:#000;text-decoration:none;}
+
+/* ********** Buttons Style ************** */
+/* ********** Container Style ************** */
+.Head									{ font-size:13px;font-weight:bold;color:#4a4949;}
+.SubHead								{ font-size:13px;color:#4a4949;}
+.SubSubHead								{ font-size:13px; color:#4a4949; }
+.Normal									{ font-size:12px; line-height:1.4; color:#767676;}
+/* ********** Login Style ************** */
+.login,
+a.login:link,
+a.login:active,
+a.login:visited{
+	color:#606060; text-decoration:none; font-weight:normal; font-size:110%; }
+a.login:hover{
+	color:#fff; text-decoration:underline; font-weight:normal; }
+	
+
+/* ********** User Style ************** */
+.user,
+a.user:link,
+a.user:active,
+a.user:visited{
+	color:#606060; text-decoration:none; font-weight:normal;font-size:110%;  }
+a.user:hover{
+	color:#fff; text-decoration:underline; font-weight:normal; }
+
+/* ********** Date Style ************** */
+.date,
+a.date:link,
+a.date:active,
+a.date:visited{
+	color:#E5810C;	text-decoration:none;	font-weight:normal;	font-size:100%; background:url(http://fathers-resources.com/Portals/21/Skins/WZ0001_Business_Gray_DNN4/images/date_icon.jpg) 0px 0px no-repeat; padding:3px 0px 3px 25px;} 
+a.date:hover{
+	color:#E165DD;}
+
+/* ********** Footer Style ************** */
+.footer,
+a.footer:link,
+a.footer:active,
+a.footer:visited{
+	font-size:13px;color:#5e5e5e;text-decoration:none;border-bottom:0px dotted;font-weight:Normal;}
+a.footer:hover{
+	color:#fff; text-decoration:none; font-weight:Normal; text-decoration:underline; }
+
+/* ********** Privacy/Terms Style ************** */
+.terms,
+a.terms:link,
+a.terms:active,
+a.terms:visited{
+	font-size:13px;	color:#5e5e5e;	text-decoration:none;	font-weight: normal;	border-bottom:0px dotted;}
+a.terms:hover{
+	color:#fff;text-decoration:none;font-weight:Normal; text-decoration:underline;}
+
+/* ********** Links Style ************** */
+.links,
+a.links:link,
+a.links:active,
+a.links:visited{
+	font-size:13px; color:#7CBBFF; text-decoration:none; font-weight:normal;padding:0 0px;}	
+a.links:hover{
+	color:#fff;text-decoration:underline;font-weight:normal;}
+
+/* ********** Breadcrumb Style ************** */
+.breadcrumb,
+a.breadcrumb:link,
+a.breadcrumb:active,
+a.breadcrumb:visited{
+	font-size:100%;color:#606060;text-decoration:none; font-weight:normal;  border-bottom:0px dotted}
+a.breadcrumb:hover{
+	color:#fff;text-decoration:none; font-weight:normal;  text-decoration:underline;}
+
+
+
+/* ********** Other Style ************** */	
+#dnn_wrapper{
+	min-height:100%;
+	background:url(http://fathers-resources.com/Portals/21/Skins/WZ0001_Business_Gray_DNN4/images/body_bg.jpg) 50% 0px no-repeat #000000;
+	position:relative;
+	}
+* html #dnn_wrapper{
+	height:100%;}
+	
+/* ******some color style for black background ******** */
+.dnnForm h2.dnnFormSectionHead a, .dnnForm h2.dnnFormSectionHead a:visited{
+	color:#ccc;
+}
+#dnn_ctr412_dnn_ctr412_Tabs_UPPanel span.rtIn{
+	color:#ccc;
+}
+.dnnTreeLegend h3{
+	color:#353535;
+}
+.dnnFormItem input[type="checkbox"], .dnnFormItem input[type="radio"], .dnnFormItem input[type="file"], .dnnFormItem input[type="button"], .dnnFormItem input.rcbInput{
+	color:#ccc;
+}
+
+
+/* ********** Main ************** */	
+.dnn_logo{
+	padding:5px; text-align:center;}
+.headp{
+	float:left;
+	padding:5px;}
+.dnn_menu{
+	clear:both;
+	position:relative;
+	z-index:999;}
+#menu_left{
+	background:none;}
+#menu_right{
+	background:none;}
+#menu_bg{
+	background:none;
+	min-height:53px;
+	margin:0px 7px;}
+* html .menu_bg{
+	height:53px;}
+.bannerp{
+	clear:both;}
+
+.dnn_bottom{
+	position:absolute;
+	left:0px;
+	bottom:10px;
+	width:100%;}
+.bottom_left{
+	background:url(http://fathers-resources.com/Portals/21/Skins/WZ0001_Business_Gray_DNN4/images/bottom_left.png) 0px 0px no-repeat;
+	max-width:960px;
+	width:100%;
+	margin:0px auto;}
+.bottom_right{
+	background:url(http://fathers-resources.com/Portals/21/Skins/WZ0001_Business_Gray_DNN4/images/bottom_right.png) 100% 0px no-repeat;}
+.bottom_bg{
+	background:url(images/bottom_bg.png) 0px 0px repeat-x;
+	height:55px;
+	margin:0px 10px;
+	text-align:center;
+	line-height:55px;
+	color:#5e5e5e;}
+.clear{
+	clear:both;}
+
+
+
+
+/* sub title */
+#apmenu span.name{
+	line-height:13px;
+	background:none;
+	padding-top:9px;}
+#apmenu span.title{
+	line-height:12px;
+	background:none;
+	font-size:11px;
+	padding:0px 0px 6px 0px;
+	margin:0px;}
+#apmenu ul ul span.name{
+	padding:0px;
+	line-height:23px;}
+#apmenu ul ul span.title{	display:none;}
+#apmenu a.over span.name,
+#apmenu a.over span.title{ background:none; 	}
+#apmenu ul ul a.parent span.name,
+#apmenu ul ul a.parent:hover span.name{ 	background:none;}
+
+/* menu::level1 */
+#apmenu ul{
+	margin:0;
+	background:#2E302F;
+	padding:0;
+	display:block; 
+    list-style: none;
+	width:100%;
+}
+#apmenu ul li { width:100%; text-align:left; float:none; }
+#apmenu ul li a span { text-align:left; line-height:35px; padding:0 2%; margin:0 2%;}
+#apmenu ul:after{
+	content:".";
+	font-size:0px;
+	height:0px;
+	display:block;
+	clear:both;
+	visibility:hidden;
+}
+
+
+#apmenu li a { background:url("images/mobile_menu1.jpg") repeat-x scroll left top transparent; display:block; width:100%; padding:0;}
+#apmenu li a:hover { background:url("images/mobile_menu2.jpg") repeat-x scroll left top transparent;}
+
+#apmenu li div {
+    list-style: none;
+    float: left;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+	margin:0;
+    padding: 0px; 
+	position:relative;
+}
+#apmenu li:hover>div {
+    visibility: visible;
+	width:100%;
+}
+
+#apmenu ul li.current a{
+	color:#ffffff;}
+#apmenu ul li.current > a{
+	display:block; 
+	width:100%;	  
+	margin:0 ;
+	padding:0;
+}
+
+
+#apmenu ul li.current > a:hover { color:#13A3C8;}
+
+#apmenu a.over span{	}
+
+#apmenu li.first-menu{ 	background:none;}
+#apmenu li.last { background: none; }
+#apmenu li.HasChild a span { background:url("images/menuicon2.gif") no-repeat scroll 97% center transparent}
+#apmenu li a span { background:url("images/menuicon1.gif") no-repeat scroll 97% center transparent}
+#apmenu li.HasChild li a span { background:none}
+
+/* menu::level2 */
+#apmenu ul ul {
+	z-index: 12;
+    padding:0;
+    margin:2% 0 0 0;
+	width:100%;
+	display:block;
+	left:0;
+}
+
+#apmenu ul ul li {
+    width: 100%;
+	padding: 0;
+	z-index: 9;
+}
+#apmenu ul li.current ul li a {}
+
+#apmenu li li a {    background:none; }
+#apmenu ul ul a.parent span{
+	background: url(images/menuicon3.gif) no-repeat 97% center;
+}
+#apmenu ul ul a.parent:hover span {
+	background:url(images/menuicon3.gif) no-repeat 97% center #262626; border-bottom:none; color:#17A2C9;
+}
+#apmenu ul ul li a {
+    padding: 0px;
+    height: auto;
+    float: left;
+    display: block;
+    line-height:32px;
+    font-size: 12px;
+    color:#5E605F;
+    white-space: normal;
+    margin: 0px;
+    text-transform: capitalize;
+	width:99.9%;
+	font-weight:normal;
+}
+
+#apmenu ul ul li a span {
+	color:#5E605F; 
+	padding:0px;
+	line-height:33px;
+	margin:0 2%;
+	padding:0 2%;
+}
+#apmenu ul ul li a span:hover {
+	color:#17A2C9; 
+	line-height:33px;
+}
+#apmenu ul li li a:hover { background:none;}
+#apmenu ul ul li:hover {
+    padding: 0;
+	background:#262626;
+}
+
+#apmenu ul ul div li {    position:relative;}
+#apmenu ul ul li.last { background: none; }
+#apmenu ul ul img{
+	vertical-align:middle;
+	padding-right:5px;
+}
+#apmenu ul ul a.over span { background:url("images/menuicon3.gif") no-repeat scroll 97% center #262626; border:none; color:#14A2CA; }
+#apmenu ul ul ul li a { }
+/* menu::level3 */
+#apmenu ul ul ul {
+    background: none repeat scroll 0 0 #262626;
+    border-bottom: medium none;
+    display: block;
+    float: left;
+    margin: 0 2% 2% 2%;
+    padding: 0;
+    z-index: 12;
+	width:96%;
+}
+#apmenu ul ul ul a span { font-size:10px; border:none; line-height:33px; padding:0 2%;}
+
+
+	
+/* menu::level4 */
+#apmenu ul ul ul ul {
+    margin: 0;
+    padding: 0 2%;
+    width: 96%;
+}
+#apmenu ul ul ul ul a span { font-size:10px; border:none; line-height:33px; margin:0 2%}
+#apmenu ul ul ul ul li { border-bottom:none;}
+
+/* lava lamp */
+#apmenu li.back {
+    height: 0;
+    z-index: 8;
+    position: absolute;
+    padding: 0px;
+	margin:0px;
+	display:block!important;
+}
+
+#apmenu li.back .left {
+    padding:0;
+    width:auto;
+    height: 55px;
+    margin: 0 0 0 36px;
+    float: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+/* SIDE NAV */
+
+.DataGrid_Item{
+	font-size:11px;}
+.DataGrid_AlternatingItem{
+	font-size:11px;}
+
+.DNNEmptyPane{
+	display:none;}
+
+
+.dnn_space{
+	height:8px;
+	font-size:0px;}
+
+
+
+.footlins {
+    width:98%;
+	text-align:center;
+	margin:0 1%;
+}
+
+
+.copyright {
+    color: #5E5E5E;
+    text-align: center;
+}
+/* homepage welcome*/
+
+.home_welcome { width:auto; border:none; } 
+.home_welcome1 { color: rgb(16, 174, 209); padding:0px; font-size: 35px; line-height: 30px;}
+.home_welcome2 { color: rgb(16, 174, 209); font-size: 20px; padding: 0;}
+.home_welcome_r{  width:auto; padding: 0 0 10px 9px;font-size: 12px;}
+
+
+}
+@media handheld, only screen and (max-width: 720px){}
+@media handheld, only screen and (max-width: 480px){
+.home_welcome { width:auto; border:none; } 
+.home_welcome1 { color: rgb(16, 174, 209); padding:0px; font-size: 35px; line-height: 30px;}
+.home_welcome2 { color: rgb(16, 174, 209); font-size: 20px; padding: 0;}
+.home_welcome_r{  width:auto; padding: 0 0 10px 9px;font-size: 12px;}
+}
+@media handheld, only screen and (max-width: 320px){
+.home_welcome1 { color: rgb(16, 174, 209); padding:0px; font-size: 25px; line-height: 30px;}
+.home_welcome2 { color: rgb(16, 174, 209); font-size: 15px; padding: 0;}
+}
+
+
+
+
+
+
+
+
+
+
+

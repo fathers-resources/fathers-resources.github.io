@@ -1,0 +1,37 @@
+/* ================================
+    CSS STYLES FOR Module Form
+   ================================
+*/
+
+
+/* Label style */
+.FormLabel{}
+
+/* Messages */
+.FormSubmitted{font-weight:bold; font-size: 16px;}
+.FormError{color:Red; font-size: 16px;}
+
+/* Form table */
+.FormTable{
+ width:100%;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+ font-size:85%;
+ }
+.FormLabelCell{
+ vertical-align:top;
+ text-align:right;
+ }
+.FormControlCell{}
+
+/* Controls */
+.FormCheckbox{}
+.FormMultipleSelect{}
+.FormDropDownList{}
+.FormLabelControl{
+float:left;}
+.FormTextArea{margin-right:2px;}
+.FormTextBox{}
+.FormSubmit{
+ font-weight:bold;
+ margin-left:200px;
+}
